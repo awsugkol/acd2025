@@ -2930,8 +2930,25 @@ ul.circle li {
 #page .section-6 .volunteers .vl-i .person[data-fname="Mayuresh"] .img {
   background-image: url(../images/volunteers/mg.jpeg);
 }
+
 #page .section-6 .volunteers .vl-i .person[data-fname="Krishna"] .img {
   background-image: url(../images/volunteers/kk.jpeg);
+}
+
+#page .section-6 .volunteers .vl-i .person[data-fname="Nachiketa"] .img {
+  background-image: url(../images/volunteers/nc.jpeg);
+}
+
+#page .section-6 .volunteers .vl-i .person[data-fname="Saumili"] .img {
+  background-image: url(../images/volunteers/sd.jpg);
+}
+
+#page .section-6 .volunteers .vl-i .person[data-fname="Sujal"] .img {
+  background-image: url(../images/volunteers/ss.jpg);
+}
+
+#page .section-6 .volunteers .vl-i .person[data-fname="Pritam"] .img {
+  background-image: url(../images/volunteers/pkm.jpg);
 }
 
 
