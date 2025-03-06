@@ -7,7 +7,6 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#333333">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="theme-color" content="#ffffff">
   <meta property="og:url" content="https://awsugkol.github.io/" />
@@ -26,6 +25,7 @@
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="./assets/javascripts/scripts.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css" href="./assets/stylesheets/styles.css" />
@@ -175,23 +175,29 @@
             <p>CONNECT WITH US ON SOCIAL MEDIA:</p>
             <center>
               <a href="https://www.meetup.com/awsugkol/" target="_blank">
-                <i class="fa fa-meetup" aria-hidden="true" style="color: #e51937; font-size: 250%;"></i>
+                <i class="fa-brands fa-meetup" aria-hidden="true" style="color: #e51937; font-size: 250%;"></i>
               </a>
               &nbsp;
               <a href="https://www.linkedin.com/company/awsugkol/" target="_blank">
-                <i class="fa fa-linkedin" aria-hidden="true" style="color:#0077b5; font-size: 250%;"></i>
+                <i class="fa-brands fa-linkedin" aria-hidden="true" style="color:#0077b5; font-size: 250%;"></i>
               </a>
               &nbsp;
               <a href="https://www.instagram.com/awsugkol/" target="_blank">
-                <i class="fa fa-instagram" aria-hidden="true" style="color:#e95950; font-size: 250%;"></i>
+                <i class="fa-brands fa-instagram" aria-hidden="true" style="color:#e95950; font-size: 250%;"></i>
+                
               </a>
               &nbsp;
-              <a href="https://twitter.com/awsugkol" target="_blank">
-                <i class="fa fa-twitter" aria-hidden="true" style="color:#00acee; font-size: 250%;"></i>
+              <a href="https://x.com/awsugkol" target="_blank">
+                <i class="fa-brands fa-threads" aria-hidden="true" style="color:#000000; font-size: 250%;"></i>
+              </a>
+              </a>
+              &nbsp;
+              <a href="https://threads.net/awsugkol" target="_blank">
+                <i class="fa-brands fa-x-twitter" aria-hidden="true" style="color:#000000; font-size: 250%;"></i>
               </a>
               &nbsp;
               <a href="https://www.youtube.com/@awsugkol/" target="_blank">
-                <i class="fa fa-youtube" aria-hidden="true" style="color:#c4302b; font-size: 250%;"></i>
+                <i class="fa-brands fa-youtube" aria-hidden="true" style="color:#c4302b; font-size: 250%;"></i>
               </a>
               &nbsp;
             </center>
@@ -478,10 +484,37 @@
             <h1 style="color: white;text-align: center;">AGENDA</h1>
             <!-- <p><a href="./assets/agenda/acd25-agenda.pdf"><i class="fa fa-download"></i> (Download PDF) </a></p> -->
           </h4>
-          <div class="text-center agenda">
-            <div class="table">
-              
-            </div>
+          <div class="text-center">
+            <table class="table">
+              <thead>
+                  <tr>
+                      <th class="text-center" style="border: 2px solid orange; color: orange;">Time</th>
+                      <th class="text-center" style="border: 2px solid orange; color: orange;">Track 1</th>
+                      <th class="text-center" style="border: 2px solid orange; color: orange;">Track 2</th>
+                      <th class="text-center" style="border: 2px solid orange; color: orange;">Track 3</th>
+                  </tr>
+              </thead>
+              <!-- <tbody>
+                <tr>
+                  <td style="background-color: #232f3f;"></td>
+                </tr>
+                  <tr>
+                    <td style="padding: 15px; background-color: #f9f9f9;">Data 1.1</td>
+                    <td style="padding: 15px; background-color: #f9f9f9;">Data 1.2</td>
+                    <td style="padding: 15px; background-color: #f9f9f9;">Data 1.3</td>
+                    <td style="padding: 15px; background-color: #f9f9f9;">Data 1.4</td>
+                </tr>
+                <tr>
+                  <td style="background-color: #232f3f;"></td>
+                </tr>
+                <tr>
+                    <td style="padding: 15px; background-color: #f9f9f9;">Data 2.1</td>
+                    <td style="padding: 15px; background-color: #f9f9f9;">Data 2.2</td>
+                    <td style="padding: 15px; background-color: #f9f9f9;">Data 2.3</td>
+                    <td style="padding: 15px; background-color: #f9f9f9;">Data 2.4</td>
+                </tr>
+              </tbody> -->
+          </table>
           </div>
         </div>
         <div>
@@ -605,6 +638,29 @@
         </div>
         <div class="section-8" id="speakers">
           <div class="container">
+            <h4 class="main-heading-ttl text-center">KEYNOTE SPEAKER</h4>
+            <div class="card">
+              <div class="row no-gutters">
+                  <div class="col-md-4">
+                      <img src="./assets/images/speakers/Biswajit-aws.jpg" class="card-img" style="max-width: 100%; height: 200px;" alt="Dr. Biswajit Mohapatra">
+                      <br>
+                      <div style="color: #000000; font-size: x-large; font-weight: bolder;" class="card-title">Dr. Biswajit Mohapatra</div>
+                      <p>Head, Customer Solutions, AWS India and South Asia</p>
+                  </div>
+                  <div class="col-md-8">
+                      <div class="card-body">
+                          <h2 style="color: #000000; font-weight: bolder;" class="card-title">AWS Powering India's Tech Revolution</h2>
+                          <br>
+                          <p class="card-text">Amazon Web Services (AWS) is playing a pivotal role in driving India's technological transformation. As the country embraces digitalization, AWS provides a robust cloud infrastructure that supports startups, enterprises, and government initiatives. With its vast array of services, including computing power, storage, and machine learning, AWS enables businesses to innovate rapidly and scale efficiently.
+                            India's burgeoning tech ecosystem benefits from AWS's global reach and local data centers, ensuring low-latency access and compliance with regulatory requirements. The platform empowers developers and entrepreneurs to build cutting-edge applications, harness big data, and leverage artificial intelligence, fostering a culture of innovation.</p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          <div class="container">
             <div class="speakers">
               <h4 class="main-heading-ttl text-center">Speakers</h4>
               <div class="spk_lst flex-it">
@@ -638,6 +694,17 @@
                         <b><a target="_blank" href="https://in.linkedin.com/in/krishnendude">Krishnendu De</a></b>
                         <br />
                         <small>Head of Information Security & CISO Generation & Distribution (CESC Limited)</small>
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="spk_itm flex-it">
+                    <div class="prod_im"><img src="./assets/images/speakers/Biswajit.jpg" alt="Dr. Biswajit Mohapatra" /></div>
+                    <div class="namenid">
+                      <p>
+                        <b><a target="_blank" href="https://in.linkedin.com/in/biswajitmohapatra">Dr. Biswajit Mohapatra</a></b>
+                        <br />
+                        <small>Head, Customer Solutions, AWS India and South Asia</small>
                       </p>
                     </div>
                   </div>
@@ -716,20 +783,35 @@
                     </div>
                   </div>
 
+                  <div class="person" data-fname="Alipto" data-lname="Choudhury">
+                    <div class="img">
+                      <a target="_blank" href="https://in.linkedin.com/in/alipto-choudhury-1b2362261"> <i
+                          class="icon large ion-logo-linkedin"></i>Alipto Choudhury</a>
+                    </div>
+                  </div>
+
                   <div class="person" data-fname="Sujal" data-lname="Shaw">
                     <div class="img">
-                      <a target="_blank" href="https://in.linkedin.com/in/godhulidas1112"> <i
+                      <a target="_blank" href="https://in.linkedin.com/in/sujalshaw01"> <i
                           class="icon large ion-logo-linkedin"></i>Sujal Shaw</a>
                     </div>
                   </div>
 
                   <div class="person" data-fname="Pritam" data-lname="Mani">
                     <div class="img">
-                      <a target="_blank" href="https://in.linkedin.com/in/godhulidas1112"> <i
+                      <a target="_blank" href="https://in.linkedin.com/in/pkumarmani24"> <i
                           class="icon large ion-logo-linkedin"></i>Pritam Kumar Mani</a>
                     </div>
                   </div>
-                  
+
+                  <div class="person" data-fname="Maharshi" data-lname="Bhaduri">
+                    <div class="img">
+                      <a target="_blank" href="https://www.linkedin.com/in/maharshibhaduri"> <i
+                          class="icon large ion-logo-linkedin"></i>Maharshi Bhaduri</a>
+                    </div>
+                  </div>
+
+                </div>
               </div>
             </div>
           </div>
