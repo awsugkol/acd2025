@@ -2634,6 +2634,10 @@ ul.circle li {
   background-image: url(../images/volunteers/kd.jpg);
 }
 
+#page .section-6 .volunteers .vl-i .person[data-fname="Debarshi"] .img {
+  background-image: url(../images/volunteers/dm.jpg);
+}
+
 #page .section-6 .volunteers .vl-i .person[data-fname="Mayuresh"] .img {
   background-image: url(../images/volunteers/mg.jpeg);
 }
