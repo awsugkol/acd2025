@@ -2678,6 +2678,30 @@ ul.circle li {
   background-image: url(../images/volunteers/sm.jpg);
 }
 
+#page .section-6 .volunteers .vl-i .person[data-fname="Anurag"] .img {
+  background-image: url(../images/volunteers/ar.jpeg);
+}
+
+#page .section-6 .volunteers .vl-i .person[data-fname="Adrija"] .img {
+  background-image: url(../images/volunteers/am.jpg);
+}
+
+#page .section-6 .volunteers .vl-i .person[data-fname="Moumita"] .img {
+  background-image: url(../images/volunteers/ms.jpeg);
+}
+
+#page .section-6 .volunteers .vl-i .person[data-fname="Saptadeep"] .img {
+  background-image: url(../images/volunteers/sb.jpeg);
+}
+
+#page .section-6 .volunteers .vl-i .person[data-fname="Anik"] .img {
+  background-image: url(../images/volunteers/ag.jpg);
+}
+
+#page .section-6 .volunteers .vl-i .person[data-fname="Saptadeep"] .img {
+  background-image: url(../images/volunteers/sb.jpeg);
+}
+
 
 /* line 1056, ../sass/shared/_home.scss */
 #page .section-7 {
