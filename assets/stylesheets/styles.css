@@ -2706,6 +2706,14 @@ ul.circle li {
   background-image: url(../images/volunteers/sg.jpeg);
 }
 
+#page .section-6 .volunteers .vl-i .person[data-fname="Sarmistha"] .img {
+  background-image: url(../images/volunteers/sg.jpg);
+}
+
+#page .section-6 .volunteers .vl-i .person[data-fname="Pritam "] .img {
+  background-image: url(../images/volunteers/pp.jpg);
+}
+
 
 /* line 1056, ../sass/shared/_home.scss */
 #page .section-7 {
