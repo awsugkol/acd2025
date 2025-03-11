@@ -2076,13 +2076,8 @@ ul.circle li {
   background-size: 90%;
 }
 
-#page .section-5 .sponsors .cats .flex-it .f1>div:not(.head).sponser-platinum-newrelic {
-  background-image: url(../images/sponsors/newrelic.png);
-  background-size: 90%;
-}
-
-#page .section-5 .sponsors .cats .flex-it .f1>div:not(.head).sponser-platinum-anblicks {
-  background-image: url(../images/sponsors/Anblicks-Logo.svg);
+#page .section-5 .sponsors .cats .flex-it .f1>div:not(.head).sponser-platinum-workmates {
+  background-image: url(../images/partners-sponsors/workmates.png);
   background-size: 90%;
 }
 
