@@ -2071,6 +2071,11 @@ ul.circle li {
   background-size: 60%;
 }
 
+#page .section-5 .sponsors .cats .flex-it .f1>div:not(.head).community-partner-wp {
+  background-image: url(../images/partners-sponsors/wordpress.png);
+  background-size: 45%;
+}
+
 #page .section-5 .sponsors .cats .flex-it .f1>div:not(.head).sponser-placeholder_special {
   background-image: url(../images/sponsors/AWS_activate.png);
   background-size: 90%;
