@@ -1,0 +1,27 @@
+.list-group-item {
+    display: flex; /* Use flexbox for layout */
+    padding: 0; /* Remove default padding */
+    width: 100%; /* Set width to 100% */
+  }
+
+  .time {
+    flex: 0 0 10%; /* Fixed width of 10% for time */
+    text-align: left; /* Align text to the left */
+  }
+
+  .track {
+    flex: 0 0 90%; /* Fixed width of 90% for track */
+    text-align: left; /* Align text to the left */
+  }
+
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .list-group-item {
+      flex-direction: column; /* Stack items vertically on small screens */
+    }
+
+    .time, .track {
+      width: 100%; /* Full width on small screens */
+      /* text-align: center; Align text to the left */
+    }
+  }
