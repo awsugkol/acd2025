@@ -5,13 +5,15 @@
   }
 
   .time {
-    flex: 0 0 10%; /* Fixed width of 10% for time */
-    text-align: left; /* Align text to the left */
+    flex: 0 0 15%; /* Fixed width of 10% for time */
+    text-align: center; /* Align text to the left */
+    font-weight: bold;
   }
 
   .track {
-    flex: 0 0 90%; /* Fixed width of 90% for track */
-    text-align: left; /* Align text to the left */
+    flex: 0 0 85%; /* Fixed width of 90% for track */
+    text-align: center; /* Align text to the left */
+    font-weight: bold;
   }
 
   /* Media query for smaller screens */
