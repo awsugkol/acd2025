@@ -2056,6 +2056,11 @@ ul.circle li {
   background-size: 90%;
 }
 
+#page .section-5 .sponsors .cats .flex-it .f1>div:not(.head).knowledge-partner-ieee {
+  background-image: url(../images/partners-sponsors/ieee.jpg);
+  background-size: 70%;
+}
+
 #page .section-5 .sponsors .cats .flex-it .f1>div:not(.head).community-partner-sitk {
   background-image: url(../images/partners-sponsors/sap-inside-track-kolkata.jpeg);
   background-size: 40%;
