@@ -1,8 +1,16 @@
 .list-group-item {
     display: flex; /* Use flexbox for layout */
     padding: 0; /* Remove default padding */
+    margin: auto;
     width: 100%; /* Set width to 100% */
+    background-color: #ff9900;
+    color: #ffffff;
   }
+
+  .list-group-item a {
+    color: #ff9900; /* Change the link color to white */
+}
+
 
   .time {
     flex: 0 0 15%; /* Fixed width of 10% for time */
@@ -14,6 +22,8 @@
     flex: 0 0 85%; /* Fixed width of 90% for track */
     text-align: center; /* Align text to the left */
     font-weight: bold;
+    background-color: #541ee7;
+    /* background-color: #a166ff; */
   }
 
   /* Media query for smaller screens */
