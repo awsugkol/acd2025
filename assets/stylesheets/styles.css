@@ -2116,6 +2116,11 @@ ul.circle li {
   background-size: 90%;
 }
 
+#page .section-5 .sponsors .cats .flex-it .f1>div:not(.head).silver-sponsor-trendmicro {
+  background-image: url(../images/partners-sponsors/trendmicro.png);
+  background-size: 100%;
+}
+
 #page .section-5 .sponsors .cats .flex-it .f1>div:not(.head).sponser-anblicks {
   background-image: url(../images/sponsors/anblicks.png);
   background-size: 80%;
